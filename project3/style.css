@@ -1,0 +1,22 @@
+#root{
+    max-width:1200px;
+    margin:0auto;
+    }
+    .container{
+    display:flex;
+    flex-wrap:wrap;
+    }
+    .card{
+    margin:1rem;
+    border:1pxsolidgray;
+    }
+    @mediascreenand(min-width:600px) {
+    .card{
+    flex:11calc(50%-2rem);
+    }
+    }
+    @mediascreenand(min-width:900px) {
+    .card{
+    flex:11calc(33%-2rem);
+    }
+    }
